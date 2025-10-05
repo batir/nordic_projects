@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/botirismailov/git/nordic_projects/build/_sysbuild/sysbuild/images/CMakeFiles/nordic_projects"
+		},
+		{
+			"file" : "/Users/botirismailov/git/nordic_projects/build/_sysbuild/sysbuild/images/CMakeFiles/nordic_projects.rule"
+		},
+		{
+			"file" : "/Users/botirismailov/git/nordic_projects/build/_sysbuild/sysbuild/images/CMakeFiles/nordic_projects-complete.rule"
+		},
+		{
+			"file" : "/Users/botirismailov/git/nordic_projects/build/_sysbuild/sysbuild/images/nordic_projects-prefix/src/nordic_projects-stamp/nordic_projects-build.rule"
+		},
+		{
+			"file" : "/Users/botirismailov/git/nordic_projects/build/_sysbuild/sysbuild/images/nordic_projects-prefix/src/nordic_projects-stamp/nordic_projects-configure.rule"
+		},
+		{
+			"file" : "/Users/botirismailov/git/nordic_projects/build/_sysbuild/sysbuild/images/nordic_projects-prefix/src/nordic_projects-stamp/nordic_projects-download.rule"
+		},
+		{
+			"file" : "/Users/botirismailov/git/nordic_projects/build/_sysbuild/sysbuild/images/nordic_projects-prefix/src/nordic_projects-stamp/nordic_projects-install.rule"
+		},
+		{
+			"file" : "/Users/botirismailov/git/nordic_projects/build/_sysbuild/sysbuild/images/nordic_projects-prefix/src/nordic_projects-stamp/nordic_projects-mkdir.rule"
+		},
+		{
+			"file" : "/Users/botirismailov/git/nordic_projects/build/_sysbuild/sysbuild/images/nordic_projects-prefix/src/nordic_projects-stamp/nordic_projects-patch.rule"
+		},
+		{
+			"file" : "/Users/botirismailov/git/nordic_projects/build/_sysbuild/sysbuild/images/nordic_projects-prefix/src/nordic_projects-stamp/nordic_projects-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nordic_projects"
+		],
+		"name" : "nordic_projects"
+	}
+}

@@ -1,0 +1,7 @@
+default: nordic_projects
+build_dir: /Users/botirismailov/git/nordic_projects/build
+domains:
+  - name: nordic_projects
+    build_dir: /Users/botirismailov/git/nordic_projects/build/nordic_projects
+flash_order:
+  - nordic_projects

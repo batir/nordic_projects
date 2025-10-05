@@ -1,0 +1,13 @@
+# Target labels
+ nordic_projects
+# Source files and their labels
+/Users/botirismailov/git/nordic_projects/build/_sysbuild/sysbuild/images/CMakeFiles/nordic_projects
+/Users/botirismailov/git/nordic_projects/build/_sysbuild/sysbuild/images/CMakeFiles/nordic_projects.rule
+/Users/botirismailov/git/nordic_projects/build/_sysbuild/sysbuild/images/CMakeFiles/nordic_projects-complete.rule
+/Users/botirismailov/git/nordic_projects/build/_sysbuild/sysbuild/images/nordic_projects-prefix/src/nordic_projects-stamp/nordic_projects-build.rule
+/Users/botirismailov/git/nordic_projects/build/_sysbuild/sysbuild/images/nordic_projects-prefix/src/nordic_projects-stamp/nordic_projects-configure.rule
+/Users/botirismailov/git/nordic_projects/build/_sysbuild/sysbuild/images/nordic_projects-prefix/src/nordic_projects-stamp/nordic_projects-download.rule
+/Users/botirismailov/git/nordic_projects/build/_sysbuild/sysbuild/images/nordic_projects-prefix/src/nordic_projects-stamp/nordic_projects-install.rule
+/Users/botirismailov/git/nordic_projects/build/_sysbuild/sysbuild/images/nordic_projects-prefix/src/nordic_projects-stamp/nordic_projects-mkdir.rule
+/Users/botirismailov/git/nordic_projects/build/_sysbuild/sysbuild/images/nordic_projects-prefix/src/nordic_projects-stamp/nordic_projects-patch.rule
+/Users/botirismailov/git/nordic_projects/build/_sysbuild/sysbuild/images/nordic_projects-prefix/src/nordic_projects-stamp/nordic_projects-update.rule

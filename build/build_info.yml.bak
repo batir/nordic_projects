@@ -1,4 +1,6 @@
 cmake:
+  application:
+    source-dir: '/opt/nordic/ncs/v3.1.0/zephyr/share/sysbuild'
   board:
     name: 'nrf52dk'
     path:
@@ -15,6 +17,7 @@ cmake:
      - '/Users/botirismailov/git/nordic_projects/build/_sysbuild/empty.conf'
     user-files:
      - '/Users/botirismailov/git/nordic_projects/build/_sysbuild/empty.conf'
+  sysbuild: 'true'
 version: '0.1.0'
 west:
   command: '/opt/nordic/ncs/toolchains/5c0d382932/bin/west build --build-dir /Users/botirismailov/git/nordic_projects/build /Users/botirismailov/git/nordic_projects --pristine --board nrf52dk/nrf52832 -- -DCONF_FILE=prj.conf'

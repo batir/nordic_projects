@@ -164,41 +164,12 @@ static int init_button(void)
 	return err;
 }
 
-void measure_temperature(void)
-{
-	struct sensor_value temp_val;
-
-	if (!device_is_ready(temp_dev)) {
-		LOG_INF("Temperature sensor device not ready!\n");
-		return;
-	}
-
-	LOG_INF("On-chip temperature sensor example\n");
-
-	while (1) {
-		// Fetch a new sample from the sensor
-		if (sensor_sample_fetch(temp_dev) != 0) {
-			LOG_INF("Failed to fetch temperature sample\n");
-		} else {
-			// Get the temperature channel data
-			sensor_channel_get(temp_dev, SENSOR_CHAN_DIE_TEMP, &temp_val);
-			
-			// sensor_value_to_double() converts the struct to a float/double
-			printk("Current die temperature: %d °C\n", (int)sensor_value_to_double(&temp_val));
-		}
-
-		// Wait for 2 seconds before the next reading
-		k_sleep(K_SECONDS(2));
-	}
-}
-
 int main(void)
 {
 	int blink_status = 0;
 	int err;
 
 	LOG_INF("Starting Lesson 6 - Exercise 3 \n");
-	measure_temperature();
 
 	err = dk_leds_init();
 	if (err) {
